@@ -1,0 +1,152 @@
+body{
+    background-color: #0D192C;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor{
+    display: flex;
+    width: 350px;
+    height: 596px;
+    background-color: #15263F;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+.first_title{
+    width: 302px;
+    height: 28px;
+    margin: 24px 24px 0px 24px;
+    color: #FFFFFF;
+}
+
+.first_title:hover {
+    color: #00FFF8;
+  }
+
+
+.subtitle{
+    width: 302px;
+    height: 52px;
+    margin: 16px 24px 0px 24px;
+    color: #8BACD9;
+
+}
+.title_footer_contenedor{
+    display: flex;
+    width: 301px;
+    height: 20px;
+    margin: 24px 25px 0px 24px;
+    align-items: center;
+    justify-content: space-between;
+}
+.title_footer_contenedor .left_side{
+    display: flex;
+    width: 94px;
+    height: 20px;
+    color: #0D192C;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_footer_contenedor .left_side:hover{
+    color: #00FFF8;
+}
+
+.title_footer_contenedor .rigth_side{
+    display: flex;
+    width: 96px;
+    height: 20px;
+    margin: 0px 26px;
+    color: #8BACD9;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.line{
+    width: 302px;
+    height: 1px;
+    border: 1px solid #979797;
+    margin: 24px 25px 0px 24px;
+}
+.final_line{
+    display: flex;
+    width: 230px;
+    height: 33px;
+    margin: 16px 25px 0px 24px;
+    align-items: center;
+    justify-content: space-around;
+}
+.final_line img{
+    width: 33px;
+    height: 33px;
+}
+
+.final_line .text1{
+    width: 81px;
+    height: 20px;
+    color: #8BACD9;
+}
+
+.final_line .text2{
+    width: 93px;
+    height: 20px;
+    color: #FFFFFF;
+}
+.final_line .text2:hover {
+    color: #00FFF8;
+}
+
+.imagen{
+    width: 302px;
+    height: 302px;
+    margin: 24px 24px 0px 24px;
+    border-radius: 5%;
+}
+
+ .imagen :hover {
+    fill: #00FFF8;
+    opacity: 0.2;
+    position: absolute;
+  }
+
+footer {
+    width: 100%;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: #FFFFFF; 
+    margin: 62px 24px 0px 24px ;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 376px) {
+    .contenedor{
+        width: 327px;
+        height: 543px;
+        margin: 62px 24px 0px 24px ;
+    }
+    .imagen{
+        width: 278px;
+        height: 278px;
+    }
+    .final_line{
+        width: 219px;
+    }
+    .subtitle{
+        width: 258px;
+        height: 52px;
+        margin: 12px 24px 0 24px;
+    }
+    .final_line{
+        width: 219px;
+        margin: 16px 84px 24px 24px ;
+    }
+  }
